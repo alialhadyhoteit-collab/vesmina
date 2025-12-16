@@ -10003,4 +10003,26 @@ split-lines {
 .product-gallery__media.snap-center.is-selected {
   position: relative;
 }
+/* ================================
+   FIX HEADER ICON COLORS (IMPACT)
+   ================================ */
+
+/* Force header icons (cart, search, menu, account) */
+.header .header__icon,
+.header .header__icon svg {
+  color: #ffffff !important; /* CHANGE COLOR HERE */
+}
+
+/* Cart icon strokes (Impact uses stroke SVGs) */
+.header .header__icon svg path {
+  stroke: currentColor !important;
+}
+
+/* Cart bubble / count */
+.header .cart-count,
+.header .header__cart-count,
+.header .cart-count-bubble {
+  background-color: #ffffff !important; /* bubble bg */
+  color: #000000 !important;            /* bubble text */
+}
 
