@@ -10032,3 +10032,19 @@ split-lines {
   fill: currentColor !important;
   stroke: currentColor !important;
 }
+/* Impact: force cart (shopping_basket) icon color */
+.header .header__icon--cart svg,
+.header .header__icon--cart svg use,
+.header .header__icon--cart svg path,
+.header .header__icon--cart svg g {
+  fill: #fff !important;
+  stroke: #fff !important;
+}
+
+/* Cart bubble */
+.header .cart-count,
+.header .header__cart-count,
+.header .cart-count-bubble {
+  background: #fff !important;
+  color: #000 !important;
+}
