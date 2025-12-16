@@ -10003,3 +10003,21 @@ split-lines {
 .product-gallery__media.snap-center.is-selected {
   position: relative;
 }
+/* force header icons in Impact */
+.header .header__icon,
+.header .header__icon svg {
+  color: #ffffff !important; /* or whatever color you want */
+}
+
+/* ensure stroke uses currentColor — mostly for stroke-based icons */
+.header .header__icon svg path {
+  stroke: currentColor !important;
+}
+
+/* cart count bubble */
+.header .cart-count,
+.header .header__cart-count,
+.header .cart-count-bubble {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
